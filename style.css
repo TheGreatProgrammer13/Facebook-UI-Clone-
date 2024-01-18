@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5;
+}
+
+img {
+    margin-top: 15px;
+}
+
+.fb-quote {
+    font-weight: normal;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+
+.login-container {
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    width: 385px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 15px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+
+}
+
+input:hover{
+    outline: 1px solid #1877f2;
+}
+
+.hover-placeholder:hover::placeholder {
+    color: #bebcbc;
+  }
+
+.btn-login {
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 0;
+    cursor: pointer;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot {
+    text-decoration: none;
+    margin: 15px 0;
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr {
+    margin: 25px 0;
+    opacity: 0.3;
+}
+
+.btn-create {
+    width: 50%;
+    display: inline-block;
+    margin: 15px auto;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease-out;
+}
+
+.btn-create:hover{
+    background-color: #1c8a06;
+}
+
+.below-text{
+    margin: 30px;
+    font-size: 14px;
+}
+
+.create-page {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.create-page:hover {
+    text-decoration: underline;
+}
